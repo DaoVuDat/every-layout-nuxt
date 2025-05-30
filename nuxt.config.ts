@@ -33,6 +33,7 @@ export default defineNuxtConfig({
     '~/assets/css/layouts/reel.css',
     '~/assets/css/layouts/imposter.css',
     '~/assets/css/layouts/icon.css',
+    '~/assets/css/layouts/container.css',
   ],
 
   vite: {

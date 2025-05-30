@@ -94,4 +94,12 @@ export default defineNuxtPlugin(() => {
 		.catch((err) => {
 			console.error("Failed to load Icon web component:", err);
 		});
+
+	import('~/components/layouts/Container.js')
+		.then(() => {
+			console.log("Container web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Container web component:", err);
+		});
 });
