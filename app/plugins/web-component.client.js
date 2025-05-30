@@ -86,4 +86,12 @@ export default defineNuxtPlugin(() => {
 		.catch((err) => {
 			console.error("Failed to load Imposter web component:", err);
 		});
+
+	import ('~/components/layouts/Icon.js')
+		.then(() => {
+			console.log("Icon web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Icon web component:", err);
+		});
 });

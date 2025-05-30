@@ -4,15 +4,18 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+
   future: {
     compatibilityVersion: 4,
   },
+
   vue: {
     compilerOptions: {
       // isCustomElement: (tag) => tag.includes('-l') || tag === 'stack-l'
       isCustomElement: (tag) => tag.includes('-l')
     }
   },
+
   css: [
     '~/assets/css/main.css',
     '~/assets/css/reset.css',
@@ -29,10 +32,14 @@ export default defineNuxtConfig({
     '~/assets/css/layouts/frame.css',
     '~/assets/css/layouts/reel.css',
     '~/assets/css/layouts/imposter.css',
+    '~/assets/css/layouts/icon.css',
   ],
+
   vite: {
     plugins: [
       tailwindcss()
     ]
   },
+
+  modules: ['@nuxt/icon'],
 })
