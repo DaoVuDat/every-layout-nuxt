@@ -10,7 +10,12 @@
   --s5: 6rem;      /* 96px */
   --s6: 7rem;      /* 96px */
   --s8: 9rem;      /* 96px */
+
   --border-thin: 1px;
   --measure: 40rem;
+
+  --color-light: #f5f5f5;
+  --color-dark: #222;
+  --item-width: 20rem;
 }
 

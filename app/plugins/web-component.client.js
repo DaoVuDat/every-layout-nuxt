@@ -70,4 +70,12 @@ export default defineNuxtPlugin(() => {
 		.catch((err) => {
 			console.error("Failed to load Frame web component:", err);
 		});
+
+	import('~/components/layouts/Reel.js')
+		.then(() => {
+			console.log("Reel web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Reel web component:", err);
+		});
 });
