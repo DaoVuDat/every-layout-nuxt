@@ -9,9 +9,17 @@ export default defineNuxtPlugin(() => {
 
 	import("~/components/layouts/Box.js")
 		.then(() => {
-			console.log("Stack web component loaded");
+			console.log("Box web component loaded");
 		})
 		.catch((err) => {
-			console.error("Failed to load Stack web component:", err);
+			console.error("Failed to load Box web component:", err);
+		});
+
+	import("~/components/layouts/Center.js")
+		.then(() => {
+			console.log("Center web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Center web component:", err);
 		});
 });
