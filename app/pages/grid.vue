@@ -7,7 +7,7 @@
   <hr/>
   <div>
     <span class="section-label">Card</span>
-    <grid-l min="calc(var(--measure) / 3)">
+    <grid-l min="calc(var(--measure) / 3)" space="var(--s2)">
       <box-l>
         <stack-l>
           <img src="~/assets/images/unsplash.jpg" alt="Card image" style="width:100%;height:auto;border-radius:8px;" />

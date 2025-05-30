@@ -62,4 +62,12 @@ export default defineNuxtPlugin(() => {
 		.catch((err) => {
 			console.error("Failed to load Grid web component:", err);
 		});
+
+	import ("~/components/layouts/Frame.js")
+		.then(() => {
+			console.log("Frame web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Frame web component:", err);
+		});
 });

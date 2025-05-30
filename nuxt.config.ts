@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     '~/assets/css/layouts/switcher.css',
     '~/assets/css/layouts/cover.css',
     '~/assets/css/layouts/grid.css',
+    '~/assets/css/layouts/frame.css',
   ],
   vite: {
     plugins: [
