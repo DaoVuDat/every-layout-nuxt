@@ -47,4 +47,12 @@ export default defineNuxtPlugin(() => {
 			console.error("Failed to load Switcher web component:", err);
 		});
 
+	import ("~/components/layouts/Cover.js")
+		.then(() => {
+			console.log("Cover web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Cover web component:", err);
+		});
+
 });
