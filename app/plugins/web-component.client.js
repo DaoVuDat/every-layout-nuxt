@@ -30,4 +30,12 @@ export default defineNuxtPlugin(() => {
 		.catch((err) => {
 			console.error("Failed to load Cluster web component:", err);
 		});
+
+	import("~/components/layouts/Sidebar.js")
+		.then(() => {
+			console.log("Sidebar web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Sidebar web component:", err);
+		});
 });

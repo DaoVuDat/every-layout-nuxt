@@ -22,6 +22,7 @@ export default defineNuxtConfig({
     '~/assets/css/layouts/box.css',
     '~/assets/css/layouts/center.css',
     '~/assets/css/layouts/cluster.css',
+    '~/assets/css/layouts/sidebar.css',
   ],
   vite: {
     plugins: [
