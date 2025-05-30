@@ -55,4 +55,11 @@ export default defineNuxtPlugin(() => {
 			console.error("Failed to load Cover web component:", err);
 		});
 
+	import ("~/components/layouts/Grid.js")
+		.then(() => {
+			console.log("Grid web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Grid web component:", err);
+		});
 });
