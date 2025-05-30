@@ -28,6 +28,7 @@ export default defineNuxtConfig({
     '~/assets/css/layouts/grid.css',
     '~/assets/css/layouts/frame.css',
     '~/assets/css/layouts/reel.css',
+    '~/assets/css/layouts/imposter.css',
   ],
   vite: {
     plugins: [

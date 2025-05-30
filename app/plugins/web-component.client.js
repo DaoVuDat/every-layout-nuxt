@@ -78,4 +78,12 @@ export default defineNuxtPlugin(() => {
 		.catch((err) => {
 			console.error("Failed to load Reel web component:", err);
 		});
+
+	import ('~/components/layouts/Imposter.js')
+		.then(() => {
+			console.log("Imposter web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Imposter web component:", err);
+		});
 });
