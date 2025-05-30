@@ -23,6 +23,7 @@ export default defineNuxtConfig({
     '~/assets/css/layouts/center.css',
     '~/assets/css/layouts/cluster.css',
     '~/assets/css/layouts/sidebar.css',
+    '~/assets/css/layouts/switcher.css',
   ],
   vite: {
     plugins: [

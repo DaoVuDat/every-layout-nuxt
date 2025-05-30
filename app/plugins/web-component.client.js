@@ -38,4 +38,13 @@ export default defineNuxtPlugin(() => {
 		.catch((err) => {
 			console.error("Failed to load Sidebar web component:", err);
 		});
+
+	import ("~/components/layouts/Switcher.js")
+		.then(() => {
+			console.log("Switcher web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Switcher web component:", err);
+		});
+
 });

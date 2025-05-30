@@ -7,7 +7,7 @@
   <hr/>
   <div>
     <span class="section-label">Media object</span>
-    <sidebar-l space="var(--s2)" sideWidth="15rem" noStretch>
+    <sidebar-l space="var(--s2)" sideWidth="15rem">
       <div>
         <img src="~/assets/images/unsplash.jpg" alt="Description of image"/>
       </div>
