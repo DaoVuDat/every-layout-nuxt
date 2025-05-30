@@ -8,4 +8,6 @@
   --s3: 3rem;      /* 48px */
   --s4: 4rem;      /* 64px */
   --s5: 6rem;      /* 96px */
+  --border-thin: 1px;
 }
+

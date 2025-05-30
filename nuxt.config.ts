@@ -9,13 +9,17 @@ export default defineNuxtConfig({
   },
   vue: {
     compilerOptions: {
-      isCustomElement: (tag) => tag.includes('-') || tag === 'stack-l'
+      // isCustomElement: (tag) => tag.includes('-l') || tag === 'stack-l'
+      isCustomElement: (tag) => tag.includes('-l')
     }
   },
   css: [
     '~/assets/css/main.css',
+    '~/assets/css/reset.css',
     '~/assets/css/design-tokens.css',
-    '~/assets/css/stack.css',
+    '~/assets/css/global.css',
+    '~/assets/css/layouts/stack.css',
+    '~/assets/css/layouts/box.css',
   ],
   vite: {
     plugins: [
