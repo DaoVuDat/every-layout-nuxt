@@ -22,4 +22,12 @@ export default defineNuxtPlugin(() => {
 		.catch((err) => {
 			console.error("Failed to load Center web component:", err);
 		});
+
+	import("~/components/layouts/Cluster.js")
+		.then(() => {
+			console.log("Cluster web component loaded");
+		})
+		.catch((err) => {
+			console.error("Failed to load Cluster web component:", err);
+		});
 });
